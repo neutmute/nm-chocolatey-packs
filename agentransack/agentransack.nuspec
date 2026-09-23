@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>agentransack</id>
-    <version>2022.3562</version>
+    <version>2022.3566</version>
     <title>Agent Ransack</title>
     <authors>Mythicsoft</authors>
     <owners>seventypercent</owners>
@@ -16,7 +16,10 @@
     <copyright>Mythicsoft</copyright>
     <tags>admin</tags>
     <releaseNotes>
-* Bug fix: OCR not working on some small PDF images.
+* Bug fix: Hit count sorting on index search fix.
+* Bug fix: File name presets and attribute searching fix.
+* Bug fix: TIF OCR was failing on some large files.
+* Other minor changes/fixes.
     </releaseNotes>
   </metadata>
 </package>
